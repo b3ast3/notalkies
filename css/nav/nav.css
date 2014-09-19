@@ -1,0 +1,75 @@
+header{	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0
+
+}
+header{	background-color:#1d1d1d;
+	color:#fff;
+	height:45px;
+	font-size:35px;
+	position:fixed;
+	z-index:1000;
+	display: block;
+	width:100%;
+	box-shadow: 0px 0px 20px 0px #000;
+}
+
+@media screen and (max-width:600px){
+.topnavshort{
+	display:block;
+	padding:5px 0 0 0;
+	text-align:center;
+	cursor:pointer;
+}
+.topnavbar{
+	display:none;
+}
+
+}
+
+@media screen and (min-width:600px){
+.topnavshort{
+	display:none;
+}
+.topnavbar{
+	display:block;
+	padding:10px 0 0 0px;
+	cursor:pointer;
+	font-size:25px;
+	
+}
+
+}
+#topnavtitle{
+	float:left;
+	padding: 0 12px;
+}
+.topnavleftitems{
+	float:left;
+	padding: 0 12px ;
+	color: rgba(255, 255, 255, .6);
+	font-size: 18px;
+	font-weight: 300;
+	height: 45px;
+}
+.topnavleftitems:hover{
+	color: rgba(255, 255, 255, 1);
+}
+
+.topnavrightitems{
+	float:right;
+	padding: 0 12px ;
+	color: rgba(255, 255, 255, .6);
+	font-size: 14px;
+	font-weight: 300;
+	height: 45px;
+}
+.topnavrightitems:hover{
+	color: rgba(255, 255, 255, 1);
+	text-decoration: underline;
+}
+.topnavleft a, .topnavright a{
+	text-decoration: none;
+}
+
